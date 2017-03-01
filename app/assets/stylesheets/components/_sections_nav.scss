@@ -1,0 +1,21 @@
+.sections-nav {
+	display: flex;
+  font-family: $sans-serif;
+  font-size: 14px;
+	flex-direction: row;
+	align-items: center;
+  justify-content: center;
+	position: relative;
+  border-bottom: 2px solid black;
+}
+.sections-nav li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  text-decoration: none;
+}
+
+.sections-nav:hover li > a {
+  background-color: $light-gray;
+}
