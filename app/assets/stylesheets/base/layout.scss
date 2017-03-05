@@ -92,3 +92,10 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
