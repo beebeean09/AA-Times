@@ -6,9 +6,9 @@
   background-color: #F0FFFF;
   font-size: 14px;
   font-family: $sans-serif;
-  padding: 9px;
-  border: 3px solid $lightest-gray;
-  width: 175px;
+  padding: 7px;
+  border: 2px solid $lightest-gray;
+  width: 200px;
   z-index: 1;
   text-align: left;
   box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
@@ -23,30 +23,29 @@
 }
 
 .gear-dropdown span {
-  font-size: 10px;
-  // padding: 5px 5px 10px 10px;
+  font-size: 12px;
   font-weight: bold;
-  margin: 10px;
+  margin: 10px 10px;
 }
 
 .gear-dropdown .editions  {
 	border-bottom: 1px solid $light-gray;
 }
 
-.gear-dropdown .help {
-  color: $dark-blue;
+.editions a {
+  text-decoration: none;
 }
 
+.gear-dropdown .help li {
+  color: $dark-blue;
+  margin: 5px 0;
+}
 
+.gear-dropdown .editions li, .gear-dropdown .help li {
+  border-radius: 3px;
+}
 
-//
-// .editions {
-//   font-size: 8px;
-//   color: black;
-// }
-//
-// .dropdown-subtitle {
-//   margin-top: 4px;
-//   margin-bottom: 4px;
-//   align-items: center;
-// }
+.dropdown-subtitle {
+  margin: 10px 5px;
+  display: block;
+}
