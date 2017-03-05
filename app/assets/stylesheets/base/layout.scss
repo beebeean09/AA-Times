@@ -39,6 +39,10 @@ a:hover {
 	display: none;
 }
 
+.gear-dropdown li ul li:hover {
+  background: $light-gray;
+}
+
 /*
 	Font Elements
 */

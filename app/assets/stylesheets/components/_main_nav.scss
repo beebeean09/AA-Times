@@ -28,7 +28,9 @@
 }
 
 .right-nav > ul > li:last-of-type {
-
+  position: relative;
+  padding: 7px 9px;
+  transition: background-color 0.3s;
 }
 
 .left-nav > ul > li:hover,

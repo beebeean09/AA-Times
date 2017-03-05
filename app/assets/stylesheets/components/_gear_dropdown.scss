@@ -2,16 +2,42 @@
 .gear-dropdown {
   position: absolute;
   top: 40px;
-  right: 10.5%;
+  right: 0;
   background-color: #F0FFFF;
-  font-size: 11px;
+  font-size: 14px;
   font-family: $sans-serif;
   padding: 9px;
   border: 3px solid $lightest-gray;
-  width: 115px;
-  z-index: 1000px;
+  width: 175px;
+  z-index: 1;
+  text-align: left;
   box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+  text-transform: uppercase;
+  font-weight: initial;
+  color: gray;
 }
+
+.gear-dropdown a {
+  display: block;
+  margin: 8px 20px;
+}
+
+.gear-dropdown span {
+  font-size: 10px;
+  // padding: 5px 5px 10px 10px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.gear-dropdown .editions  {
+	border-bottom: 1px solid $light-gray;
+}
+
+.gear-dropdown .help {
+  color: $dark-blue;
+}
+
+
 
 //
 // .editions {
